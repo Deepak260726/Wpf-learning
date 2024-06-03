@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <None Remove="Images\Facebook.png" />
+    <None Remove="Images\logo-niya.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\Facebook.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\logo-niya.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
