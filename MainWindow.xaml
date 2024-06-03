@@ -25,8 +25,8 @@
             <Grid>
                 <Canvas>
                     <Polygon Points="0,20 230,140 0,270" Fill="#4EB186" Canvas.Top="-20"/>
-                    <Polygon Points="100,400 200,370 180,470" Fill="#4EB186"/>
-                    <Ellipse Margin="250 450 0 0" Width="40" Height="40" Fill="#4EB186"/>
+                    <Polygon Points="100,400 200,370 180,470" Fill="#4EB186" Canvas.Left="120" Canvas.Top="-46"/>
+                    <Ellipse Width="40" Height="40" Fill="#4EB186" Canvas.Left="110" Canvas.Top="354"/>
                     <Ellipse Margin="50 400 0 0" Width="20" Height="20" Fill="#4EB186"/>
                 </Canvas>
                 <StackPanel VerticalAlignment="Center">
@@ -59,7 +59,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Source="/Images/Facebook.png" Height="20"/>
-                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown"  Text="Email" Style="{StaticResource textHint}"/>
+                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown"  Style="{StaticResource textHint}"/>
                         <TextBox x:Name="txtEmail" TextChanged="txtEmail_TextChanged"  Style="{StaticResource textBox}"/>
                     </Grid>
                 </Border>
@@ -71,7 +71,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Source="/Images/Facebook.png" Height="20"/>
-                        <TextBlock x:Name="textPassword" MouseDown="textPassword_MouseDown" Text="Password" Style="{StaticResource textHint}"/>
+                        <TextBlock x:Name="textPassword" MouseDown="textPassword_MouseDown" Style="{StaticResource textHint}"/>
                         <PasswordBox x:Name="txtPassword" PasswordChanged="txtPassword_PasswordChanged" Style="{StaticResource textBox}"/>
                     </Grid>
                 </Border>
